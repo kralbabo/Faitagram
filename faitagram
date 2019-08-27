@@ -23,12 +23,12 @@ def main():
 
     parser = argparse.ArgumentParser(description='Bruteforce framework written in Python')  # Parameters
     required = parser.add_argument_group('required arguments')
-    required.add_argument('-s', '--service', dest='service')
-    required.add_argument('-u', '--username', dest='username')
-    required.add_argument('-w', '--wordlist', dest='password')
-    parser.add_argument('-d', '--delay', type=int, dest='delay')
+    required.add_argument('-s-instagram', '--service', dest='service'
+    required.add_argument('-u-dilan_hatice', '--username', dest='username'
+    required.add_argument ('- w-wordlist', '- kelime listesi', dest = 'şifre')
+    parser.add_argument('-d-delay', '--delay', type=int, dest='delay'
 
-    args = parser.parse_args()
+    args = parser.parse_args(
 
     global fb_name, service
 
